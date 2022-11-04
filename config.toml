@@ -1,0 +1,21 @@
+baseURL = 'https://sfndsn.github.io'
+languageCode = 'en-us'
+title = 'Sebastian Findeisen'
+theme = 'hugo-coder-main'
+[[menu.main]]
+  name = "Research"
+  weight = 1
+  url  = "research/"
+[[menu.main]]
+  name = "Curriculum Vitae"
+  weight = 2
+  url = "cv/cv.pdf"
+[[menu.main]]
+  name = "Contact"
+  weight = 3
+  url = "contact/"
+[params]
+avatarURL = "images/konstanz.jpg"
+author = "Sebastian Findeisen"
+info = ["Professor für Allerlei", "Präsident der Vereinigten Arabischen Emiraten"]
+colorScheme = "auto"
