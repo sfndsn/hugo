@@ -15,7 +15,9 @@ theme = 'hugo-coder-main'
   weight = 3
   url = "contact/"
 [params]
-avatarURL = "images/konstanz.jpg"
+avatarURL = "images/findeisen.jpg"
 author = "Sebastian Findeisen"
-info = ["Professor für Allerlei", "Präsident der Vereinigten Arabischen Emiraten"]
+info = ["Professor of Economic Policy at the University of Konstanz"]
 colorScheme = "auto"
+[markup.goldmark.renderer]
+  unsafe = true
