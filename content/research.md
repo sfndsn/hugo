@@ -5,19 +5,33 @@ draft: false
 
 ### Working Paper
 
-- [Transforming Institutions: Labor Reallocation and Wage Growth in a Reunified Germany; Sebastian Findeisen, Sang Yoon (Tim) Lee, Tommaso Porzio and Wolfgang Dauth (2021)](/papers/transforminginstitutions.pdf)
-- [Social Mobility in Germany; Majed Dodin, Sebastian Findeisen, Lukas Henkel, Dominik Sachs and Paul Schüle (2021)](/papers/socialmobility.pdf)
+{{<paper_entry title="Transforming Institutions: Labor Reallocation and Wage Growth in a Reunified Germany" authors="Sang Yoon (Tim) Lee, Tommaso Porzio and Wolfgang Dauth"  info="2021" link="/papers/transforminginstitutions.pdf">}}
+
+{{<paper_entry title="Social Mobility in Germany" authors="Majed Dodin, Lukas Henkel, Dominik Sachs and Paul Schüle"  journal="[Revise and Resubmit at the Journal of Public Economics]" info="2022" link="/papers/socialmobility.pdf">}}
+
 
 ###  Publications
 
-- [Matching in Cities; Wolfgang Dauth, Sebastian Findeisen, Enrico Moretti and Jens Suedekum (2022)](/papers/matchingcities.pdf)
- - [The Adjustments of Labor Markets to Robots; Wolfgang Dauth, Sebastian Findeisen, Jens Suedekum and Nicole Woessner (2021)](/papers/adjustmentslaborrobots.pdf), [Appendix](/papers/appendixlaborrobots.pdf)
-- [Optimal Need-Based Financial Aid; Mark Colas, Sebastian Findeisen and Dominik Sachs (2021)](/papers/financialaid.pdf), [Appendix](/papers/appendixfinancialaid.pdf)
-- [Adjusting to Globalization in Germany; Wolfgang Dauth, Sebastian Findeisen and Jens Suedekum (2021)](/papers/adjustingglobalization.pdf)
-- [Adjusting to Robots: Worker-Level Evidence; Wolfgang Dauth, Sebastian Findeisen, Jens Suedekum and Nicole Woessner (2018)](/papers/adjustingtorobots.pdf)
-- [Education Policies and Taxation without Commitment; Sebastian Findeisen and Dominik Sachs (2018)](/papers/educationpolicies.pdf)
-- [German Robots - The Impact of Industrial Robots on Workers; Wolfgang Dauth, Sebastian Findeisen, Jens Suedekum and Nicole Woessner (2017)](/papers/germanrobots.pdf)
-- [Trade and Manufacturing Jobs in Germany; Wolfgang Dauth, Sebastian Findeiesen and Jens Suedekum (2017)](/papers/tradeandmanufacturing.pdf)
-- [Education and Optimal Dynamic Taxation: The Role of Income-Contingent Student Loans; Sebastian Findeisen and Dominik Sachs (2016)](/papers/educationandoptimaldynamictaxation.pdf)
-- [Redistribution and Insurance with Simple Tax Instruments; Sebastian Findeisen and Dominik Sachs (2016)](/papers/redistribution.pdf)
-- [The Rise of the East and the Far East: German Labor Markets and Trade Integration; Wolfgang Dauth, Sebastian Findeisen and Jens Suedekum (2014)](/papers/riseoftheeast.pdf)
+{{<paper_entry title="Matching in Cities" authors="Wolfgang Dauth, Enrico Moretti and Jens Suedekum" journal="Journal of the European Economic Association" info="20(4), 1478–1521, 2022" link="/papers/matchingcities.pdf">}}
+
+{{<paper_entry_with_appendix title="The Adjustments of Labor Markets to Robots" authors="Wolfgang Dauth, Jens Suedekum and Nicole Woessner" journal="Journal of the European Economic Association" info="19(6), 3104–3153, 2021" link="/papers/adjustmentslaborrobots.pdf" link_appendix="/papers/appendixlaborrobots.pdf">}}
+
+{{<paper_entry_with_appendix title="Optimal Need-Based Financial Aid" authors="Mark Colas and Dominik Sachs" journal="Journal of Political Economy" info="129(2), 492-533, 2021" link="/papers/financialaid.pdf" link_appendix="/papers/appendixfinancialaid.pdf">}}
+
+{{<paper_entry title="Adjusting to Globalization in Germany" authors="Wolfgang Dauth and Jens Suedekum" journal="Journal of Labor Economics" info="39(1), 263-302, 2021" link="/papers/adjustingglobalization.pdf">}}
+
+{{<paper_entry title="Adjusting to Robots: Worker-Level Evidence" authors="Wolfgang Dauth, Jens Suedekum and Nicole Woessner"  info="2018" link="/papers/adjustingtorobots.pdf">}}
+
+{{<paper_entry title="Education Policies and Taxation without Commitment" authors="Dominik Sachs" journal="Scandinavian Journal of Economics" info="120(4), 1075-1099, 2018" link="/papers/educationpolicies.pdf">}}
+
+{{<paper_entry title="German Robots - The Impact of Industrial Robots on Workers" authors="Wolfgang Dauth, Jens Suedekum and Nicole Woessner"  info="2017" link="/papers/germanrobots.pdf">}}
+
+{{<paper_entry title="Trade and Manufacturing Jobs in Germany" authors="Wolfgang Dauth and Jens Suedekum" journal="American Economic Review Papers and Proceedings" info="107(5), 337-342, 2017" link="/papers/tradeandmanufacturing.pdf">}}
+
+{{<paper_entry title="Redistribution and Insurance with Simple Tax Instruments" authors="Dominik Sachs" journal="Journal of Public Economics" info="146, 58-78, 2017" link="/papers/redistribution.pdf">}}
+
+{{<paper_entry title="Education and Optimal Dynamic Taxation: The Role of Income-Contingent Student Loans" authors="Dominik Sachs" journal="Journal of Public Economics" info="138, 1-21, 2016" link="/papers/educationandoptimaldynamictaxation.pdf">}}
+
+{{<paper_entry title="The Rise of the East and the Far East: German Labor Markets and Trade Integration" authors="Wolfgang Dauth and Jens Suedekum" journal="Journal of the European Economic Association" info="12(6), 1643-1675, 2014" link="/papers/riseoftheeast.pdf">}}
+
+{{<paper_entry title="​​Industry churning and the evolution of cities: Evidence for Germany" authors="Jens Suedekum" journal="Journal of Urban Economics" info="64(2), 326-339, 2008" link="/papers/industrychurning.pdf">}}
