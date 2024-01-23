@@ -17,7 +17,7 @@ theme = 'hugo-coder-main'
 [params]
 avatarURL = "images/findeisen.jpg"
 author = "Sebastian Findeisen"
-info = ["Professor of Economic Policy at the University of Konstanz"]
+info = ["Professor of Economics at the University of Konstanz"]
 colorScheme = "auto"
 [markup.goldmark.renderer]
   unsafe = true

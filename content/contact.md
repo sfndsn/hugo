@@ -1,8 +1,8 @@
 ---
 title: "Contact"
 draft: false
----
-  
+---  
+<!---
 <div style="display: flex; align-items:center; justify-content:left; padding:20px;" > 
   <div style="flex-basis:50%; ">
     <img src="/images/findeisen_round.jpg" style="border-radius: 50%; width:75%; ">
@@ -14,3 +14,7 @@ draft: false
     </p>
   </div>
 </div>
+-->
+
+E-Mail: sebastian.findeisen@uni-konstanz.de \
+Phone: +49 7531 882120
