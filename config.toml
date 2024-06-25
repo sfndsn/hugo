@@ -2,6 +2,7 @@ baseURL = 'https://sfndsn.github.io'
 languageCode = 'en-us'
 title = 'Sebastian Findeisen'
 theme = 'hugo-coder-main'
+
 [[menu.main]]
   name = "Research"
   weight = 1
@@ -14,10 +15,43 @@ theme = 'hugo-coder-main'
   name = "Contact"
   weight = 3
   url = "contact/"
+
 [params]
 avatarURL = "images/findeisen.jpg"
 author = "Sebastian Findeisen"
-info = ["Professor of Economics at the University of Konstanz"]
-colorScheme = "auto"
+info = [
+  "**Professor, Chair of Economic Policy, University of Konstanz**",
+  "[CEPR](https://cepr.org/about/people/sebastian-findeisen), Research Fellow (Labour, Public)",
+  "[Cluster of Excellence 'The Politics of Inequality'](https://www.exc.uni-konstanz.de/ungleichheit/ueber-uns/personen/alle-clustermitglieder/findeisen-sebastian/), Member of Board",
+  "[CESifo](https://www.cesifo.org/en/network-member/findeisen-sebastian), Research Network Fellow",
+  "[IZA](https://www.iza.org/de/people/fellows/4081/sebastian-findeisen), Research Fellow",
+  "[ZEW](https://www.zew.de/team/sfn), Research Associate"
+]
+workshop_title = "Workshop \"Determinants and Consequences of Labor Market Mobility\""
+workshop_pdf = "workshop/workshop.pdf"
+workshop_location_date = "(Konstanz, July 1-2, 2024)"
+
+[params.recent]
+    [[params.recent.paper1]]
+      title = "Are We Yet Sick of New Technologies? The Unequal Health Effects of Digitalization"
+      authors = "Melanie Arntz, Stephan Maurer, and Oliver Schlenker"
+      journal = "Working Paper"
+      info = "(2024)"
+      link = "papers/diwabetechnostress.pdf"
+
+    [[params.recent.paper2]]
+      title = "Social Mobility in Germany"
+      authors = "Majed Dodin, Lukas Henkel Dominik Sachs, and Paul Schüle"
+      journal = "Journal of Public Economics"
+      info = "(2024)"
+      link = "papers/socialmobility.pdf"
+
+
+
+
+
+
+
+
 [markup.goldmark.renderer]
   unsafe = true

@@ -1,0 +1,90 @@
+<style>
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap-reverse;
+  }
+
+  .flex-item-left {
+    flex: 40%;
+  }
+
+
+  .flex-item-right {
+    flex: 55%;
+  }
+
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 720px) {
+
+    .flex-item-right,
+    .flex-item-left {
+      flex: 95%;
+    }
+  }
+
+  #left {
+    padding-right: 40px;
+  }
+
+  #right {
+    text-align: right;
+  }
+
+  .about {
+    text-align: left;
+  }
+
+  .info-text {
+    font-size: medium;
+    font-weight: normal;
+  }
+</style>
+
+<div class="container">
+  <div class="flex-container">
+    <div id="left" class="flex-item-left">
+      <h2 style="font-size: 18px; margin-bottom: 0;">Recent Papers</h2>
+      <ul style="list-style-type: none; padding-left: 0; margin-top: 0; line-height: 1.5;">
+        {{ range .Site.Params.recent.paper1 }}
+        <li style="font-size: 14px; line-height: 1.15;">
+          <a style="color:rgb(21, 101, 192)" href="{{ .link | absURL }}">{{ .title }}</a><br>
+          (with {{ .authors }}), <b>{{ .journal }}</b> {{ .info }}
+        </li>
+        {{ end }}
+
+        {{ range .Site.Params.recent.paper2 }}
+        <li style="font-size: 14px; line-height: 1.15; margin-top: 5px;">
+          <a style="color:rgb(21, 101, 192)" href="{{ .link | absURL }}">{{ .title }}</a><br>
+          (with {{ .authors }}), <b>{{ .journal }}</b> {{ .info }}
+        </li>
+        {{ end }}
+      </ul>
+
+      <h2 style="font-size: 18px; margin-bottom: 0;">Upcoming Workshop:</h2>
+      <p style="font-size: 14px; line-height: 1.15; margin-top: 0;">
+        <a href="{{ .Site.Params.workshop_pdf | absURL }}" style="color:rgb(21, 101, 192)">{{
+          .Site.Params.workshop_title
+          }}</a><br>
+        <span style="margin-top: 0;">{{ .Site.Params.workshop_location_date }}</span>
+      </p>
+    </div>
+    <div id="right" class="flex-item-right">
+      {{ if and (isset .Site.Params "avatarurl") (not (isset .Site.Params "gravatar")) }}
+      {{ with .Site.Params.avatarURL }}
+      <div style="margin-bottom: 0;"><img src="{{ . | absURL }}" alt="avatar"
+          style="width: 80%; height: auto; border-radius: 5%;" /></div>
+      {{ end }}
+      {{ end }}
+      {{ with .Site.Params.gravatar }}
+      <div class="avatar" style="margin-bottom: 0;"><img src="https://www.gravatar.com/avatar/{{ md5 . }}?s=240&d=mp"
+          alt="gravatar" style="max-width: 80%; height: auto;"></div>
+      {{ end }}
+      <h1 style="margin-top: 0; margin-bottom: 5px;">{{ .Site.Params.author }}</h1>
+      <p style="margin-top: 5px;" class="info-text"> {{ if reflect.IsSlice .Site.Params.info }}
+        {{ range .Site.Params.info }}{{ . | markdownify }}<br>{{ end}}
+        {{ else }}
+        {{ .Site.Params.info | markdownify }}
+        {{ end }} </p>
+    </div>
+  </div>
+</div>
