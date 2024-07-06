@@ -32,6 +32,14 @@ workshop_pdf = "workshop/workshop.pdf"
 workshop_location_date = "(Konstanz, July 1-2, 2024)"
 
 [params.recent]
+
+[[params.recent.paper1]]
+      title = "Organized Labor Versus Robots? Evidence from Micro Data"
+      authors = "Sebastian Findeisen, Wolfgang Dauth, and Oliver Schlenker"
+      journal = "Working Paper"
+      info = "(2024)"
+      link = "papers/organizedlaborvsrobots.pdf"
+
     [[params.recent.paper1]]
       title = "Are We Yet Sick of New Technologies? The Unequal Health Effects of Digitalization"
       authors = "Melanie Arntz, Stephan Maurer, and Oliver Schlenker"
