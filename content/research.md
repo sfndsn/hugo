@@ -5,7 +5,7 @@ draft: false
 
 ### Working Papers
 
-{{<paper_entry title="Organized Labor Versus Robots? Evidence from Micro Data" authors="Sebastian Findeisen, Wolfgang Dauth, and Oliver Schlenker"  info="2024" link="/papers/organizedlaborvsrobots">}}
+{{<paper_entry title="Organized Labor Versus Robots? Evidence from Micro Data" authors="Sebastian Findeisen, Wolfgang Dauth, and Oliver Schlenker"  info="2024" link="/papers/organizedlaborvsrobots.pdf">}}
 
 {{<paper_entry title="Are We Yet Sick of New Technologies? The Unequal Health Effects of Digitalization" authors="Melanie Arntz, Stephan Maurer, and Oliver Schlenker"  info="2024" link="/papers/diwabetechnostress.pdf">}}
 

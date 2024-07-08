@@ -40,14 +40,14 @@ workshop_location_date = "(Konstanz, July 1-2, 2024)"
       info = "(2024)"
       link = "papers/organizedlaborvsrobots.pdf"
 
-    [[params.recent.paper1]]
+    [[params.recent.paper2]]
       title = "Are We Yet Sick of New Technologies? The Unequal Health Effects of Digitalization"
       authors = "Melanie Arntz, Stephan Maurer, and Oliver Schlenker"
       journal = "Working Paper"
       info = "(2024)"
       link = "papers/diwabetechnostress.pdf"
 
-    [[params.recent.paper2]]
+    [[params.recent.paper3]]
       title = "Social Mobility in Germany"
       authors = "Majed Dodin, Lukas Henkel Dominik Sachs, and Paul Schüle"
       journal = "Journal of Public Economics"
