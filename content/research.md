@@ -7,7 +7,7 @@ draft: false
 
 {{<paper_entry title="Organized Labor Versus Robots? Evidence from Micro Data" authors="Sebastian Findeisen, Wolfgang Dauth, and Oliver Schlenker"  info="2024" link="/papers/organizedlaborvsrobots.pdf">}}
 
-{{<paper_entry title="Are We Yet Sick of New Technologies? The Unequal Health Effects of Digitalization" authors="Melanie Arntz, Stephan Maurer, and Oliver Schlenker"  info="2024" link="/papers/diwabetechnostress.pdf">}}
+{{<paper_entry title="Are We Yet Sick of New Technologies? The Unequal Health Effect of Workplace Digitalization " authors="Melanie Arntz, Stephan Maurer, and Oliver Schlenker"  info="2024" link="/papers/diwabetechnostress.pdf">}}
 
 {{<paper_entry title="Transforming Institutions: Labor Reallocation and Wage Growth in a Reunified Germany" authors="Sang Yoon (Tim) Lee, Tommaso Porzio, and Wolfgang Dauth"  info="2021" link="/papers/transforminginstitutions.pdf">}}
 
