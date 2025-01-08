@@ -17,7 +17,7 @@ theme = 'hugo-coder-main'
   url = "contact/"
 
 [params]
-avatarURL = "images/findeisen.jpg"
+avatarURL = "images/findeisen_dec24.jpg"
 author = "Sebastian Findeisen"
 info = [
   "**Professor, Chair of Economic Policy, University of Konstanz**",
@@ -38,7 +38,7 @@ workshop_location_date = "(Konstanz, July 1-2, 2024)"
       authors = "Sebastian Findeisen, Wolfgang Dauth, and Oliver Schlenker"
       journal = "Working Paper"
       info = "(2024)"
-      link = "papers/organizedlaborvsrobots.pdf"
+      link = "papers/OrganizedLaborRobots.pdf"
 
     [[params.recent.paper2]]
       title = "Are We Yet Sick of New Technologies? The Unequal Health Effects of Workplace Digitalization"
