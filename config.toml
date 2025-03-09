@@ -34,18 +34,18 @@ workshop_location_date = "(Konstanz, July 1-2, 2024)"
 [params.recent]
 
 [[params.recent.paper1]]
-      title = "Organized Labor Versus Robots? Evidence from Micro Data"
-      authors = "Sebastian Findeisen, Wolfgang Dauth, and Oliver Schlenker"
-      journal = "Working Paper"
-      info = "(2024)"
-      link = "papers/OrganizedLaborRobots.pdf"
-
-    [[params.recent.paper2]]
       title = "Are We Yet Sick of New Technologies? The Unequal Health Effects of Workplace Digitalization"
       authors = "Melanie Arntz, Stephan Maurer, and Oliver Schlenker"
       journal = "Working Paper"
+      info = "(2025)"
+      link = "papers/diwabetechnostress.pdf" 
+
+    [[params.recent.paper2]]
+      title = "Organized Labor Versus Robots? Evidence from Micro Data"
+      authors = "Wolfgang Dauth, and Oliver Schlenker"
+      journal = "Working Paper"
       info = "(2024)"
-      link = "papers/diwabetechnostress.pdf"
+      link = "papers/OrganizedLaborRobots.pdf"
 
     [[params.recent.paper3]]
       title = "Social Mobility in Germany"
